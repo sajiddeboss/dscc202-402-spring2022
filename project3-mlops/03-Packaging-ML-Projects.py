@@ -150,6 +150,7 @@ print("Success!")
 
 # Adust our working directory from what DBFS sees to what python actually sees
 working_path = workingDir.replace("dbfs:", "/dbfs")
+print(working_path)
 
 # COMMAND ----------
 
